@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hu.bme.aut.todoextensions.MainActivity">
+
+    <item
+        android:id="@+id/action_dragging"
+        android:orderInCategory="100"
+        android:title="@string/action_dragging"
+        android:icon="@drawable/drag_white"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_alarm"
+        android:orderInCategory="100"
+        android:title="@string/action_alarm"
+        android:icon="@drawable/alarm_clock"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_calendar"
+        android:orderInCategory="100"
+        android:title="@string/action_edit"
+        android:icon="@drawable/calendar_white_26"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="@string/action_edit"
+        android:icon="@drawable/edit_white"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_drag"
+        android:orderInCategory="100"
+        android:title="@string/action_drag"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="@string/action_delete"
+        app:showAsAction="never" />
+
+</menu>
